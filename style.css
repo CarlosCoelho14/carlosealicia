@@ -1,0 +1,134 @@
+body{
+    background-color: #111111;
+    margin: 10px;
+}
+
+h1{
+    font-family: "Outfit", serif;
+    text-align: center;
+    font-size: 7vw;
+    color: #ffffff;
+    padding: 5px;
+    padding-bottom: 7px;
+    background-color: #3a10d5;
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px rgba(58, 16, 213,0.7);
+    margin-top: 70px;
+}
+
+.nome{
+    text-align: center;
+    color: #3a10d5;
+    font-size: 70px;
+    font-family: "Tangerine", cursive;
+    padding: 20px;
+    text-shadow: 0px 0px 10px rgba(58, 16, 213,0.7);
+}
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+img.fp{
+    width: 40px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.inf{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.foto{
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 5px;
+}
+
+.foto > .ft{
+    min-width: 100%;
+    scroll-snap-align: start;
+}
+
+.texto{
+    font-family: "Charm", cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 7vw;
+}
+
+.contador{
+    display: flex;
+    flex-direction: column;
+}
+
+.contadora{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contadorb{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.caixa{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 5vw;
+    color: #ffffff;
+    background-color: #111111;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    width: 30%;
+}
+
+.caixam{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 5vw;
+    color: #ffffff;
+    padding: 1px;
+    background-color: #111111;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    width: 100%;
+}
+
+.musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img.musica{
+    padding: 20px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+.icon{
+    width: 25px;
+    padding: 2px;
+}
